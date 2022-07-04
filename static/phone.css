@@ -44,6 +44,9 @@
         height: 150px;
         width: 250px;
     }
+    #cerificate_container{
+        width: 100%;
+    }
     #footer{
         /* height:1000px; */
         height: 100%;

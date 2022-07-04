@@ -153,10 +153,37 @@
     transform: scale(1.2);
 }
 
+#certificateSection{
+    margin: 15px 0;
+    height: 600px;   
+    display: block;
+}
+#certificateSection h2{
+    font-size: 42px;
+    font-family: 'Yeon Sung';
+    text-align: center;
+    padding-top:12px;
+}
+#cerificate_container{
+    display: flex;
+    width: 60%;
+    height: 400px;
+    margin: auto;
+    background: url('/static/img/Cbanner.webp') center center/cover;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px black;
+    cursor: pointer;
+}
+.CertiImage img{
+    height: 200px ;
+    width: 225px;
+    margin: 50px;
+}
 #footer{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height:300px ;
     margin: auto;
+    
 } 
 #footerSection{
     display: flex;

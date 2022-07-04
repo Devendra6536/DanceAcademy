@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
+
+.alert{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    height: 200px;
+    margin: 350px auto;
+    /* box-shadow: 4px 4px 4px 4px black; */
+}
+ h1{
+    font-family: 'ZCOOL QingKe HuangYou';
+    font-size: 90px;
+}
+
