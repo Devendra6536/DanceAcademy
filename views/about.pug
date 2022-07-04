@@ -1,0 +1,31 @@
+extends base.pug 
+
+block scripts
+    script(src='/static/index.js')
+block style 
+    style 
+        include ../static/style.css
+        include ../static/phone.css  
+        include ../static/about.css  
+block content
+    div.container
+        h1 Gallery
+        div.imgContainer
+            div.image 
+                img(src="https://source.unsplash.com/300x200/?dance,man", alt="Dance image")
+            div.image 
+                img(src="https://source.unsplash.com/300x200/?dance, women", alt="Dance image")
+            div.image 
+                img(src="https://source.unsplash.com/300x200/?dance, female Abs, Fit Girls", alt="Dance image")
+            div.image 
+                img(src="https://source.unsplash.com/300x200/?dance, dancer", alt="Dance image")
+            div.image 
+                img(src="https://source.unsplash.com/300x200/?dance, jalisco", alt="Dance image")
+            div.image 
+                img(src="https://source.unsplash.com/300x200/?Dance images & pictures", alt="Dance image")
+            div.image 
+                img(src="https://source.unsplash.com/300x200/?dance, female", alt="Dance image")
+            div.image 
+                img#id(src="/static/img/intro.jpg")
+            div.image 
+                img#id(src="/static/img/dance5.jpg")

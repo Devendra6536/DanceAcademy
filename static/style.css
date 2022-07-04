@@ -62,9 +62,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url('/static/img/bg1.jpg') no-repeat center center/cover;
+    background-position: 500px 500px;
+    background: url('/static/img/intro1.jpg') no-repeat center center/cover;
     height: 425px;
-    background-color: red;
     font-family: 'ZCOOL QingKe HuangYou';
     font-size: 45px;
     padding-bottom: 40px;

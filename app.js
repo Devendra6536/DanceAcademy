@@ -20,6 +20,14 @@ app.get("/", (req, res)=>{
     res.status(200).render("home.pug",param);
 });
 
+app.get("/about", (req, res)=>{ 
+    const param = { };
+    res.status(200).render("about.pug",param);
+});
+app.get("/service", (req, res)=>{ 
+    const param = { };
+    res.status(200).render("service.pug",param);
+});
 app.get("/contact", (req, res)=>{ 
     const param = { };
     res.status(200).render("contact.pug",param);
