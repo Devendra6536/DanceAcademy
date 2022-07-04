@@ -1,0 +1,53 @@
+@media (max-width:691px) {
+    #navbar{
+        text-align: center;
+        width: 100%;
+        float: left;
+        top: 0;
+        position: relative;
+    }
+    #navbar ul{
+        display: block;
+        margin: auto;
+    }
+    #navbar ul li:hover{
+        background-color: black;
+    }
+    #navbar ul li a:hover{
+        border-bottom: none;
+
+    }
+    #introSection{
+        height: 400px;
+        width: 100%;
+        margin-top: 25px;
+        padding: 25px;
+    }
+    #missionSection{
+        height: 100%;
+    }
+    .card{
+        width: 100%;
+    }
+    #sponserSection{
+        height: 1000px;
+        align-items: center;
+        margin-top:10px ;
+    }
+    #sponser_container{
+        height: 980px;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .sponsers{
+        margin: 8px 0;
+    }
+    .sponsers img{
+        height: 150px;
+        width: 250px;
+    }
+    #footer{
+        /* height:1000px; */
+        height: 100%;
+    }
+}

@@ -1,0 +1,78 @@
+extends base.pug
+
+block scripts
+    script(src='/static/index.js')
+block style 
+    style 
+        include ../static/style.css
+        include ../static/phone.css  
+block content 
+    section#introSection
+        div  Welcome to Pal's Dance Academy 
+        div.small Eat Sleep Dance repeat
+    section#missionSection
+        h2 Our Mission
+        div.card
+            img(src="/static/dance1.", alt="")
+            h3#a Dance Perfection
+            div.card-box 
+                div.card-img
+                    img(src="/static/img/dance1.jpg", alt="")
+                div.card-content 
+                    p this is the best website of dance academy
+        div.card
+            h3 Dance the way you like 
+            div.card-box 
+                div.card-img
+                    img(src="/static/img/dance2.jpg", alt="")
+                div.card-content 
+                    p this is the best website of dance academy
+        div.card
+            h3 Expert Teaching 
+            div.card-box 
+                div.card-img
+                    img(src="/static/img/dance3.jpg", alt="")
+                div.card-content 
+                    p this is the best website of dance academy
+    section#sponserSection
+        h2 Our Sponsers 
+        div#sponser_container 
+            div.sponsers 
+                img(src="/static/img/logo10.png", alt="")
+            div.sponsers 
+                img(src="/static/img/logo6.jpg", alt="")
+            div.sponsers 
+                img(src="/static/img/logo7.jpg", alt="")
+            div.sponsers 
+                img(src="/static/img/logo8.png", alt="")
+            div.sponsers 
+                img(src="/static/img/logo9.jpg", alt="")
+    footer#footer 
+        div#footerSection
+            div.footerDiv
+                h1 follow 
+                ul 
+                    li #[a(href ="/") Facebook  ]
+                    li #[a(href ="/") InstaGram  ]
+                        li #[a(href ="/") Linkedln  ]
+                        li #[a(href ="/") GitHub ]
+            div.footerDiv 
+                h1 Contact Us 
+                ul 
+                    li #[a(href ="/") +91-8630834625 ]
+                    li #[a(href ="/") +91-9084014625  ]
+                    li #[a(href ="/") devendrapal8682@gmail.com ]
+            div.footerDiv 
+                h1 Quick links
+                ul 
+                    li #[a(href ="/") Home  ]
+                    li #[a(href ="/") Service ]
+                    li #[a(href ="/") Register ]
+                    li #[a(href ="/") Privacy Policy]
+            div.footerDiv 
+                h1 More
+                ul 
+                    li #[a(href ="/") Home  ]
+                    li #[a(href ="/") Service ]
+                    li #[a(href ="/") Register ]
+                    li #[a(href ="/") Privacy Policy]
