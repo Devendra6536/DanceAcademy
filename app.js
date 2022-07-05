@@ -4,7 +4,7 @@ const app = express();
 var mongoose = require('mongoose');
 const bodyparser = require("body-parser")
 mongoose.connect('mongodb://localhost/contactDance', { useNewUrlParser: true });
-const port = 8000;
+const port = process.env.PORT || 8000;
 
 // creating the schema
 const contactSchema = new mongoose.Schema({
@@ -16,8 +16,6 @@ const contactSchema = new mongoose.Schema({
 });
 
 const Contact = mongoose.model('Contact', contactSchema);
-
-
 
 
 app.use('/static', express.static('static'));
@@ -63,6 +61,6 @@ app.post("/contact", (req, res)=>{
     res.status(200).render("contactAlert.pug");
     // res.end("<h1>404 Not Found</h1> ");
 });
-app.listen(port, ()=>{
+app.listen(port, () =>{
     console.log(`The application started successfully on port ${port}`);
 });
