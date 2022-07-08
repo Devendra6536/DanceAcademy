@@ -56,7 +56,7 @@ app.post("/contact", (req, res)=>{
     myData.save().then(()=>{
         res.send("This item has been saved to the database")
     }).catch(()=>{
-        res.status(400).send("item was not saved to the databse")
+        res.status(400).send("item was not saved to the database")
     })
     res.status(200).render("contactAlert.pug");
     // res.end("<h1>404 Not Found</h1> ");

@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
 
 
+
+
+    
 h1{
     margin-top: 150px;
     text-align: center;
@@ -52,3 +55,63 @@ h2{
     width: 345px;
     border-radius: 15px;
 }
+
+
+
+.an{
+    border: 2px solid red;
+    margin: 25px;
+    padding: 16px;
+}
+
+
+@import url("https://fonts.googleapis.com /css2?family=Roboto:wght@400; 700&display=swap");
+
+*{
+box-sizing: border-box;
+
+}
+
+body {
+
+background-color: #efedd6; 
+Font-family: "Roboto", sans-serif;
+display: flex;
+flex-direction: column;
+align-Items: center;
+justify-content: center;
+margin: 0; overflow-x: hidden;
+
+}
+
+h1{
+margin: 10px;
+}
+
+.an {
+
+    background-color: purple;
+    color: #FFF;    
+    display: flex;    
+    align-Items: center;    
+    Justify-content: center;    
+    width: 70%;    
+    height: 200px;    
+    margin: 50px 10px;
+    border-radius: 10px;    
+    box-shadow: 0px 3px 12px #9535f0;    
+    transform: translateX(600%);    
+    transition: transform 0.8s ease;
+}
+    
+.an:nth-of-type(even)
+     { 
+        transform: translatex( 400%);
+    }
+    
+.an.show { transform: translatex(0);}
+    
+    .an h2 {
+        font-size: 45px;
+    }
+    
