@@ -69,7 +69,7 @@ app.post("/contact",async (req, res)=>{
             desc:req.body.desc
         });
         await Contact.create(myData).then(()=>{
-            res.status(200).render("home.pug");
+            res.status(200).render("contactAlert.pug");
         }).catch(()=>{
             res.status(400).send("item was not saved to the database")
         })
