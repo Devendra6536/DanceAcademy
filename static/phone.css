@@ -147,13 +147,17 @@
         height: 500px;
         width: 500px;
     }
-    .whyus{
-        width: 90%;
-        margin: 25px;
-    }
     .sponsers img{
         height: 150px;
         width: 250px;
+    }
+    .whyus{
+        height: 80rem;
+        width: 700px;
+        margin: 50px;
+    }
+    .whyus{
+        
     }
     #cerificate_container{
         width: 90%;
