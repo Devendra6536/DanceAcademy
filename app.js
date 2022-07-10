@@ -5,7 +5,11 @@ var mongoose = require('mongoose');
 const bodyparser = require("body-parser")
 const port = process.env.PORT || 8000;
 
-mongoose.connect("mongodb+srv://devenderpal:1234@cluster0.f1cpe.mongodb.net/?retryWrites=true&w=majority");
+mongoose.connect("mongodb+srv://devenderpal:1234@cluster0.f1cpe.mongodb.net/contacts",{
+    useNewUrlParser:true,
+}).then(()=>
+console.log("connected successfully")).catch((err)=>
+console.log(err));
 // creating the schema
 const contactSchema = new mongoose.Schema({
     name: String,
