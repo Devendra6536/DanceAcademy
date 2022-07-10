@@ -164,4 +164,11 @@
     #footer{
         height: 100%;
     }
+    .footerDiv{
+        width: 590px;
+        margin: 50px;
+    }
+    .footerDiv ul li a{
+        font-size:3rem ;
+    }
 }
