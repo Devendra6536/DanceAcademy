@@ -52,7 +52,7 @@ app.get("/service", (req, res)=>{
 });
 app.get("/class", (req, res)=>{ 
     const param = { };
-    res.status(200).render("contactAlert.pug",param);
+    res.status(200).render("class.pug",param);
 });
 app.get("/contact", (req, res)=>{ 
     const param = { };

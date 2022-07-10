@@ -88,13 +88,14 @@
 }
 .card{
     display: inline-block;
-    border: 2px solid black;
+    /* border: 1px solid black; */
     border-radius: 10px;
     height: 209px;
     width:29%;
     margin:23px 20px;
     padding: 12px;
     background-color: #fff6f6;
+    box-shadow: 1px 1px 1px 1px black;
 }
 
 .card h3{
@@ -125,19 +126,19 @@
 #a{
     margin-top: -5px;
 }
-#sponserSection{
+#sponserSection,#whyusSection{
     height: 400px;
     background-color:#fbd6d6c7;    
     display: block;
 }
-#sponserSection h2{
+#sponserSection h2,#whyusSection h2{
     font-size: 42px;
     font-family: 'Yeon Sung';
     text-align: center;
     padding-top:12px;
     
 }
-#sponser_container{
+#sponser_container,#why_us_container{
     height: 300px;
     display: flex;
     align-items: center;
@@ -148,9 +149,37 @@
     width: 200px;
     margin: 5px 20px;
     border-radius: 5px;
+    
 }
 .sponsers img:hover{
     transform: scale(1.2);
+}
+#whyusSection{
+    background-color:  #f5fafd;
+    
+}
+.whyus{
+    height: 250px;
+    width: 355px;
+    margin: 5px 55px;
+    border-radius: 5px;
+    padding: 35px 10px;
+    text-align: center;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    border: 1px solid brown;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 2px black;
+}
+.whyus h3{
+    font-family: Muli,sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: #3C424F;
+    margin: 15px;
+}
+.whyus p{
+    color: #8E9DAE;
 }
 
 #certificateSection{
@@ -179,10 +208,36 @@
     width: 225px;
     margin: 50px;
 }
+
+#newsletter{
+    background-image: linear-gradient(45deg,#874da2 0,#c43a30 100%);
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#newsletter h1{
+    color: #fff;
+    font-weight: 400;
+    font-size: 45px;
+    margin: 10px 50px;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+}
+#newsletter .btn{
+    background-color: #FF9800;
+    border-color: #FF9800;
+    padding: 10px 25px;
+    font-size: 15px;
+    color: white;
+    transition: all .3s linear;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
 #footer{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height:300px ;
-    margin: auto;
+    margin: 50px auto;
     
 } 
 #footerSection{

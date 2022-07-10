@@ -27,12 +27,12 @@
     .card{
         width: 100%;
     }
-    #sponserSection{
+    #sponserSection,#whyusSection{
         height: 1000px;
         align-items: center;
         margin-top:10px ;
     }
-    #sponser_container{
+    #sponser_container,#why_us_container{
         height: 980px;
         flex-direction: column;
         padding: 10px;
@@ -40,12 +40,19 @@
     .sponsers{
         margin: 8px 0;
     }
+    .whyus{
+        width: 90%;
+        margin: 25px;
+    }
     .sponsers img{
         height: 150px;
         width: 250px;
     }
     #cerificate_container{
         width: 90%;
+    }
+    #newsletter{
+        flex-direction: column;
     }
     #footer{
         height: 100%;
