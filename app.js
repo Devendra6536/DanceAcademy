@@ -4,9 +4,13 @@ const app = express();
 var mongoose = require('mongoose');
 const bodyparser = require("body-parser")
 const port = process.env.PORT || 8000;
+require("dotenv").config();
+const pug=require("pug");
 
-mongoose.connect("mongodb+srv://devenderpal:1234@cluster0.f1cpe.mongodb.net/contacts",{
+
+mongoose.connect(process.env.MONGOOSE_URL_STRING,{
     useNewUrlParser:true,
+    useUnifiedTopology:true,
 }).then(()=>
 console.log("connected successfully")).catch((err)=>
 console.log(err));
@@ -55,14 +59,24 @@ app.get("/contact", (req, res)=>{
     res.status(200).render("contact.pug",param);
 });
 
-app.post("/contact", (req, res)=>{
-    var myData = new Contact(req.body);
-    myData.save().then(()=>{
-        res.send("This item has been saved to the database")
-    }).catch(()=>{
-        res.status(400).send("item was not saved to the database")
-    })
-    res.status(200).render("contactAlert.pug");
+app.post("/contact",async (req, res)=>{
+    var myData = new Contact(
+        {
+            name:req.body.name,
+            phone:req.body.phone,
+            email:req.body.email,
+            address:req.body.address,
+            desc:req.body.desc
+        });
+        await Contact.create(myData).then(()=>{
+            res.status(200).render("contactAlert.pug");
+        }).catch(()=>{
+            res.status(400).send("item was not saved to the database")
+        })
+    // myData.save().then(()=>{
+    //     res.send("This item has been saved to the database")
+    // })
+    // res.status(200).render("contactAlert.pug");
     // res.end("<h1>404 Not Found</h1> ");
 });
 app.listen(port, () =>{
