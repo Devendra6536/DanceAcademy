@@ -61,8 +61,8 @@
 
 
 
-
-@media (min-width:391px) and (max-width:1122px) {
+/* 
+@media  (min-width:391px) and (max-width:768px) {
     #navbar{
         text-align: center;
         width: 100%;
@@ -123,7 +123,7 @@
     .card-content p{
         font-size: 4rem;
     }
-    #sponserSection,#whyusSection{
+    #sponserSection{
         height: 1400px;
         align-items: center;
         margin-top:10px ;
@@ -136,7 +136,7 @@
         font-size: 7.5rem;
         
     }
-    #sponser_container,#why_us_container{
+    #sponser_container{
         height: 1280px;
         flex-direction: column;
         padding: 10px;
@@ -151,15 +151,46 @@
         height: 150px;
         width: 250px;
     }
-    .whyus{
-        height: 80rem;
-        width: 700px;
-        margin: 50px;
+    #whyusSection{
+        height: 100%;
+        margin-top:100px;
+    }
+    #whyusSection h2{
+        font-size:8rem ;
+    }
+    #why_us_container{
+        flex-direction: column;
     }
     .whyus{
-        
+        height: 1290px;
+        width: 900px;
+        margin: 30px 0px;
+        padding: 10px 10px;
+    }
+    .whyus h3{
+        font-size: 6rem;
+        margin: 128px 15px;
+    }
+    .whyus p{
+        font-size: 5rem;
+        margin: 15px 10px;
+    }
+    #certificateSection{
+        margin: 100px 0px;
+        height: 100%;
+        flex-direction: column;
+
     }
     #cerificate_container{
+        width: 900px;
+        height: 1016px;
+        background-position: center center;
+    }
+    #cerificate_container h2{
+        font-size: 8rem;
+    }
+    #certificateSection img{
+        height: 50%;
         width: 90%;
     }
     #newsletter{
@@ -181,4 +212,4 @@
     #bottom{
         margin-top: 120px;
     }
-}
+} */
