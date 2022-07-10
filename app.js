@@ -60,7 +60,7 @@ app.get("/contact", (req, res)=>{
 });
 
 app.post("/contact",async (req, res)=>{
-    var myData = new contact(
+    var myData = new Contact(
         {
             name:req.body.name,
             phone:req.body.phone,
@@ -69,7 +69,7 @@ app.post("/contact",async (req, res)=>{
             desc:req.body.desc
         });
         await Contact.create(myData).then(()=>{
-            res.status(200).render("contactAlert.pug");
+            res.status(200).render("home.pug");
         }).catch(()=>{
             res.status(400).send("item was not saved to the database")
         })
