@@ -67,13 +67,18 @@
         text-align: center;
         width: 100%;
         position: relative;
+        height: 1000px;
     }
     #navbar ul{
         display: block;
         margin: auto;
+        font-size: 25px;
     }
     #navbar ul li:hover{
         background-color: black;
+    }
+    #navbar ul li a{
+        font-size: 7.5rem;
     }
     #navbar ul li a:hover{
         border-bottom: none;
