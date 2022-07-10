@@ -1,11 +1,11 @@
 const express = require("express");
 const path = require("path");
 const app = express();
-var mongoose = require('mongoose');
 const bodyparser = require("body-parser")
 const port = process.env.PORT || 8000;
 require("dotenv").config();
 const pug=require("pug");
+var mongoose = require('mongoose');
 
 
 mongoose.connect(process.env.MONGOOSE_URL_STRING,{
@@ -23,7 +23,7 @@ const contactSchema = new mongoose.Schema({
     desc: String,
 });
 
-const Contact = mongoose.model('Contact', contactSchema);
+const Contact = mongoose.model('contact', contactSchema);
 
 
 app.use('/static', express.static('static'));
@@ -60,7 +60,7 @@ app.get("/contact", (req, res)=>{
 });
 
 app.post("/contact",async (req, res)=>{
-    var myData = new Contact(
+    var myData = new contact(
         {
             name:req.body.name,
             phone:req.body.phone,
@@ -68,7 +68,7 @@ app.post("/contact",async (req, res)=>{
             address:req.body.address,
             desc:req.body.desc
         });
-        await Contact.create(myData).then(()=>{
+        await contact.create(myData).then(()=>{
             res.status(200).render("contactAlert.pug");
         }).catch(()=>{
             res.status(400).send("item was not saved to the database")
