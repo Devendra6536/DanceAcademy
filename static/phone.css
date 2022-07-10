@@ -166,9 +166,15 @@
     }
     .footerDiv{
         width: 590px;
-        margin: 50px;
+        margin: 70px auto;
+    }
+    .footerDiv h1{
+        font-size: 4rem;
     }
     .footerDiv ul li a{
         font-size:3rem ;
+    }
+    #bottom{
+        margin-top: 120px;
     }
 }
