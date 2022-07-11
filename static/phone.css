@@ -65,7 +65,7 @@
 
 
 
- @media screen and (max-width:600px) {
+ @media screen and (min-width:300px) and (max-width:768px){
 
     #navbar{
         text-align: center;
