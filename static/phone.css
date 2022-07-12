@@ -63,7 +63,16 @@
  */
 
  
- @media screen and (max-width:1122px){
+
+
+
+
+
+
+
+
+
+ /* @media screen and (max-width:1122px){
 
     .navbar{
         text-align: center; 
@@ -87,6 +96,128 @@
 
     }
     #introSection{
+        /* /* height: 400px; 
+        height: 1440px;
+        width: 100%;
+        margin-top: 25px;
+        padding: 25px;
+    }
+    #missionSection{
+        height: 100%;
+    }
+    .card{
+        width: 100%;
+    }
+    #sponserSection,#whyusSection{
+        height: 1000px;
+        align-items: center;
+        margin-top:10px ;
+    }
+    #sponser_container,#why_us_container{
+        height: 980px;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .sponsers{
+        margin: 8px 0;
+    }
+    .whyus{
+        width: 90%;
+        margin: 25px;
+    }
+    .sponsers img{
+        height: 150px;
+        width: 250px;
+    }
+    #cerificate_container{
+        width: 90%;
+    }
+    #newsletter{
+        flex-direction: column;
+    }
+    #footer{
+        height: 100%;
+    }
+ } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media screen and (max-width:1122px){
+
+    .navbar{
+        text-align: center; 
+        width: 100%;
+        position: relative;
+        height: 800px;
+    }
+    .navbar ul{
+        /* margin: auto; */
+        flex-direction: column;
+        
+    }
+    .navbar ul li{
+        width: 100%;
+    }
+    .navbar ul li:hover{
+        background-color: black;
+    }
+    .navbar ul li a {
+
+        font-size: 3rem;
+    }
+
+    .navbar ul li a:hover{
+        border-bottom: none;
+        
+    }
+    #introSection{
         /* /* height: 400px; */
         height: 1440px;
         width: 100%;
@@ -98,6 +229,18 @@
     }
     .card{
         width: 100%;
+        font-size: 3rem;
+        height: 800px;
+    }
+    .card-box{
+        flex-direction: column;
+    }
+    .card-img{
+        height: 300px;
+        width: 320px;
+    }
+    .card-content{
+        font-size: 3rem;
     }
     #sponserSection,#whyusSection{
         height: 1000px;
