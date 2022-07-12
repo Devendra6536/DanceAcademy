@@ -80,7 +80,8 @@
     height: 400px;
     width: 72%;
     margin: auto;
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 #missionSection h2{
     font-size: 42px;
@@ -88,9 +89,15 @@
     text-align: center;
     padding-top:12px;
 }
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
 .card{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     /* border: 1px solid black; */
+    /* flex-wrap: wrap; */
     border-radius: 10px;
     height: 209px;
     width:29%;
@@ -110,6 +117,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /* flex-wrap: wrap; */
 }
 .card-img{
     height: 120px;
@@ -145,6 +153,7 @@
     display: flex;
     align-items: center;
     justify-content: center; 
+    flex-wrap: wrap;
 }
 .sponsers img{
     height: 150px;

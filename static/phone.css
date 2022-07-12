@@ -189,7 +189,7 @@
 
 
 
- @media screen and (max-width:1122px){
+ @media screen and (max-width:900px){
 
     .navbar{
         text-align: center; 
@@ -237,9 +237,10 @@
         font-size: 5rem;
     }
     .card{
-        width: 600px;
+        width: 1000px;
         font-size: 3rem;
         height:1000px;
+        flex-wrap: wrap;
     }
     .card-box{
         flex-direction: column;
