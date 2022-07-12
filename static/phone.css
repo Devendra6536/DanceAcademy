@@ -62,31 +62,32 @@
 }
  */
 
+ 
+ @media screen and (max-width:1122px){
 
-
-
- @media screen and (min-width:391px) and (max-width:600px){
-
-    #navbar{
-        text-align: center;
+    .navbar{
+        text-align: center; 
         width: 100%;
         position: relative;
-        display: block;
         height: 500px;
     }
-    #navbar ul{
-        display: block;
-        margin: auto;
+    .navbar ul{
+         margin: auto;
+         flex-direction: column;
+
     }
-    #navbar ul li:hover{
+    .navbar ul li{
+        width: 100%;
+    }
+    .navbar ul li:hover{
         background-color: black;
     }
-    #navbar ul li a:hover{
+    .navbar ul li a:hover{
         border-bottom: none;
 
     }
     #introSection{
-        /* height: 400px; */
+        /* /* height: 400px; */
         height: 1440px;
         width: 100%;
         margin-top: 25px;
@@ -128,5 +129,4 @@
     #footer{
         height: 100%;
     }
-}
-
+ }

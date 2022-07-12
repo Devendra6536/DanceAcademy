@@ -7,7 +7,7 @@
     padding: 0;
 }
 
-#navbar{
+.navbar{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* background-color: purple; */
     background-image: linear-gradient(45deg,#874da2 0,#c43a30 100%);
@@ -15,6 +15,7 @@
     position: fixed;
     top: 0;
     width: 100%;
+    display: flex;
 }
 #logo{
     display: flex;
@@ -37,23 +38,23 @@
     /* filter: invert(1); */
 
 }
-#navbar ul{
+.navbar ul{
     display: flex;
-    flex-direction: row;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
+    width: 100%;
 }
-#navbar li{
+.navbar ul li{
     list-style: none;
     margin: 2px 15px;
     padding: 7px 11px;
 }
-#navbar li a{
+.navbar ul li a{
     color: white;
     text-decoration: none;
     font-size: 1.5rem;
 }
-#navbar li a:hover{
+.navbar li a:hover{
     border-bottom: 2px solid white;
 }
 
@@ -298,7 +299,4 @@
     font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-
-
 

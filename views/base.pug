@@ -3,9 +3,12 @@ html
   head
     title Smart Dance Academy
     block scripts
-    block style 
+    block style
+        style 
+          include ../static/style.css
+          include ../static/phone.css    
   body
-    nav#navbar 
+    nav.navbar 
             ul
                 div#logo 
                     img(src="/static/img/logo..png", alt="")
