@@ -247,6 +247,7 @@
         font-size: 3rem;
         height:1000px;
         flex-wrap: wrap;
+        margin: 25px 25px;
     }
     .card-box{
         flex-direction: column;
@@ -255,17 +256,17 @@
         margin: 0px;
     }
     .card-box .card-img{
-        height: 400px;
-        width: 300px;
+        width: 451px;
+        height: 654px;
     }
     .card-img img{
-        height: 300px ;
-        width: 325px;
+        width: 451px;
+        height: 654px;
     }
     .card-content{
         font-size: 4rem;
-        width: 363px;
-        height: 400px;
+        width: 451px;
+        height: 654px;
     }
     #sponserSection,#whyusSection{
         height: 1000px;
