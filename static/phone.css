@@ -195,7 +195,7 @@
         text-align: center; 
         width: 100%;
         position: relative;
-        height: 800px;
+        height: 1600px;
     }
     .navbar ul{
         /* margin: auto; */
@@ -223,6 +223,7 @@
         width: 100%;
         margin-top: 25px;
         padding: 25px;
+        
     }
     #missionSection{
         height: 100%;
