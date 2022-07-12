@@ -237,9 +237,9 @@
         font-size: 5rem;
     }
     .card{
-        width: 60%;
+        width: 600px;
         font-size: 3rem;
-        height: 100%;
+        height:1000px;
     }
     .card-box{
         flex-direction: column;
