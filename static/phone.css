@@ -195,7 +195,7 @@
         text-align: center; 
         width: 100%;
         position: relative;
-        height: 1600px;
+        height: 1220px;
     }
     .navbar ul{
         /* margin: auto; */
@@ -210,7 +210,7 @@
     }
     .navbar ul li a {
 
-        font-size: 3rem;
+        font-size: 5rem;
     }
 
     .navbar ul li a:hover{
@@ -223,25 +223,37 @@
         width: 100%;
         margin-top: 25px;
         padding: 25px;
+        font-size:5rem ;
         
+    }
+    #introSection div.small{
+        font-size: 4rem;
     }
     #missionSection{
         height: 100%;
+        width: 90%;
+    }
+    #missionSection h2{
+        font-size: 5rem;
     }
     .card{
         width: 100%;
         font-size: 3rem;
-        height: 800px;
+        height: 100%;
     }
     .card-box{
         flex-direction: column;
+        width: 435px;
+        height: 700px;
     }
-    .card-img{
-        height: 300px;
-        width: 320px;
+    .card-box .card-img{
+        height: 400px;
+        width: 363px;
     }
     .card-content{
-        font-size: 3rem;
+        font-size: 4rem;
+        width: 363px;
+        height: 400px;
     }
     #sponserSection,#whyusSection{
         height: 1000px;
