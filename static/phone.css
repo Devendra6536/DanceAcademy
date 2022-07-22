@@ -142,7 +142,7 @@
     }
     #sponserSection,#whyusSection{
         height: 100%;
-        align-items: center;
+        /* align-items: center; */
         margin-top:10px ;
         display: block;
         width: 391px;
@@ -163,7 +163,7 @@
     }
     .whyus{
         display: block;
-        /* width: 391; */
+        width: 371;
         margin: 25px;
     }
     
@@ -171,10 +171,14 @@
         
         
     #certificateSection{
-        /* width: 391px; */
+        width: 371px;
+        height: 340px;
         display: block;
-
     }
+    #certificateSection img{
+        width: 371px;
+    }
+
     
     #newsletter{
         /* flex-direction: column; */
