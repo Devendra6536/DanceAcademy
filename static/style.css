@@ -7,6 +7,9 @@
     padding: 0;
 }
 
+.btn{
+    display: none;
+}
 .navbar{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* background-color: purple; */
