@@ -151,12 +151,11 @@
         height: 100%;
         /* flex-direction: column; */
         display: block;
-        padding: 10px;
-        /* width: 391px; */
+        padding: 0px;
+        width: 419px;
     }
-    .sponsers{
-        
-        margin: 8px 0;
+    .sponsers{        
+        margin: 10px 10px;
     }
     .sponsers img{
         width: 335px;
