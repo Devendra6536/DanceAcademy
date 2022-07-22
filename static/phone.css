@@ -76,7 +76,8 @@
 
     .navbar{
         /* text-align: center;  */
-        width: 391px;
+        display: block;
+        /* width: 391px; */
         position: relative;
         height: 450px;
         justify-content: start;
@@ -93,7 +94,8 @@
     }
     #introSection{
         height: 1000px;
-        width: 391px;
+        display: block;
+        /* width: 391px; */
         margin-top: 25px;
         padding: 25px;
     }
@@ -106,7 +108,8 @@
     
     #missionSection{
         height: 100%;
-        width: 391px;
+        display: block;
+        /* width: 391px; */
         margin: 0px;
     }
    
@@ -141,19 +144,21 @@
         height: 100%;
         align-items: center;
         margin-top:10px ;
-        width: 391px;
+        display: block;
+        /* width: 391px; */
     }
     #sponser_container,#why_us_container{
         height: 100%;
-        flex-direction: column;
+        /* flex-direction: column; */
+        display: block;
         padding: 10px;
-        width: 391px;
+        /* width: 391px; */
     }
     .sponsers{
         margin: 8px 0;
     }
     .sponsers img{
-        width: 370px;
+        width: 335px;
         height: 340px;
     }
     .whyus{
@@ -165,18 +170,21 @@
         
         
     #certificateSection{
-        width: 391px;
+        /* width: 391px; */
+        display: block;
 
     }
     
     #newsletter{
-        flex-direction: column;
-        width: 391px;
+        /* flex-direction: column; */
+        display: block;
+        /* width: 391px; */
         height: 350px;
     }
     #footer{
         height: 100%;
-        width: 391px;
+        /* width: 391px; */
+        display: block;
         margin: 30px 0px 0px 0px;
     }
     .footerDiv{
@@ -186,7 +194,8 @@
         font-size: 30px;
     }
     #footerSection,#bottom,.footerDiv{
-        width: 391px;
+        /* width: 391px; */
+        display: block;
     }
     .footerDiv ul li a{
         font-size: 25px;
