@@ -102,8 +102,7 @@
 
     }
     #introSection{
-         height: 400px; 
-        height: 1440px;
+        height: 1000px;
         width: 600px;
         margin-top: 25px;
         padding: 25px;
@@ -121,38 +120,45 @@
         margin: 0px;
         width: 500px;
     }
+    #missionSection h2{
+        font-family: 5rem;
+    }
+   
     .cardContainer {
         width: 600px;
         margin: 0px;
     }
     .card{
-        width: 600px;
+        width: 580px;
         height: 1000px;
         flex-direction: column;
         margin: 10px 0px 0px 10px;
     }
+    .card h3{
+        font-size: 3rem;
+    }
     .card-box {
         flex-direction: column;
-        width: 500px;
+        width: 580px;
         height: 900px;
     }
     .card-img{
-        width: 500px;
+        width: 580px;
         height: 450px;
-        width: ;
     }
     .card-img img{
-        width:400px;
-        height: 450px;
+        width: 580px;
+        height: 540px;
     }
     .card-content{
         width: 450px;
-        height: 450px;
+        height: 350px;
     }
     #sponserSection,#whyusSection{
         height: 1000px;
         align-items: center;
         margin-top:10px ;
+        width: 600px;
     }
     #sponser_container,#why_us_container{
         height: 980px;
@@ -171,13 +177,15 @@
         width: 250px;
     }
     #cerificate_container{
-        width: 90%;
+        width: 600px;
     }
     #newsletter{
         flex-direction: column;
+        width: 600px;
     }
     #footer{
         height: 100%;
+        width: 600px;
     }
  } 
 
