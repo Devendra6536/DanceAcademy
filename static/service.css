@@ -64,6 +64,9 @@ h2{
 }
 
 @media screen and (max-width:600px) {
+    #container{
+        display: block;
+    }
     .box{
         display: block;
         width:391px;
@@ -76,9 +79,12 @@ h2{
     }
     .trainingContainer{
         flex-direction: column ;
+        width: 391px;
+        margin: 10px -33px;
     }
     .box:nth-child(even){
         margin-left: 0px;
+        flex-direction: column-reverse;
     }
     .box:nth-child(odd){
         margin-left: 0px;

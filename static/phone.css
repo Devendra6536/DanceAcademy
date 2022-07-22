@@ -183,7 +183,7 @@
     #newsletter{
         /* flex-direction: column; */
         display: block;
-        /* width: 391px; */
+        width: 371px;
         height: 350px;
     }
     #footer{
