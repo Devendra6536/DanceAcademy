@@ -155,13 +155,13 @@
         height: 350px;
     }
     #sponserSection,#whyusSection{
-        height: 1000px;
+        height: 100%;
         align-items: center;
         margin-top:10px ;
         width: 620px;
     }
     #sponser_container,#why_us_container{
-        height: 980px;
+        height: 100%;
         flex-direction: column;
         padding: 10px;
         width: 620px;
