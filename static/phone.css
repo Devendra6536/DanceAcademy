@@ -76,7 +76,7 @@
 
     .navbar{
         /* text-align: center;  */
-        width: 625px;
+        width: 500px;
         position: relative;
         height: 600px;
         justify-content: start;
@@ -103,7 +103,7 @@
     }
     #introSection{
         height: 1000px;
-        width: 625px;
+        width: 500px;
         margin-top: 25px;
         padding: 25px;
     }
@@ -125,7 +125,7 @@
     }
    
     .cardContainer {
-        width: 625px;
+        width: 500px;
         margin:  0px;
     }
     .card{
@@ -158,13 +158,13 @@
         height: 100%;
         align-items: center;
         margin-top:10px ;
-        width: 620px;
+        width: 500px;
     }
     #sponser_container,#why_us_container{
         height: 100%;
         flex-direction: column;
         padding: 10px;
-        width: 625px;
+        width: 500px;
     }
     .sponsers{
         margin: 8px 0;
@@ -182,23 +182,29 @@
         
         
     #certificateSection{
-        width: 625px;
+        width: 500px;
 
     }
     
     #newsletter{
         flex-direction: column;
-        width: 625px;
+        width: 500px;
     }
     #footer{
         height: 100%;
-        width: 620px;
+        width: 500px;
     }
     .footerDiv{
         margin: 0px;
     }
+    .footerDiv h1{
+        font-size: 30px;
+    }
     #footerSection,#bottom,.footerDiv{
-        width: 620px;
+        width: 500px;
+    }
+    .footerDiv ul li a{
+        font-size: 25px;
     }
     
  } 
