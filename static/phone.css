@@ -76,7 +76,7 @@
 
     .navbar{
         /* text-align: center;  */
-        width: 600px;
+        width: 620px;
         position: relative;
         height: 600px;
         justify-content: start;
@@ -125,7 +125,7 @@
     }
    
     .cardContainer {
-        width: 600px;
+        width: 620px;
         margin:  0px;
     }
     .card{
@@ -143,7 +143,7 @@
         height: 900px;
     }
     .card-img{
-        width: 580px;
+        width: 570px;
         height: 450px;
     }
     .card-img img{
@@ -158,46 +158,48 @@
         height: 1000px;
         align-items: center;
         margin-top:10px ;
-        width: 600px;
+        width: 620px;
     }
     #sponser_container,#why_us_container{
         height: 980px;
         flex-direction: column;
         padding: 10px;
-        width: 600px;
+        width: 620px;
     }
     .sponsers{
         margin: 8px 0;
     }
     .sponsers img{
         width: 560px;
+        height: 450px;
     }
     .whyus{
         width: 90%;
         margin: 25px;
     }
-    .sponsers img{
-        height: 150px;
-        width: 250px;
-    }
+    
     
         
         
     #certificateSection{
-        width: 600px;
+        width: 620px;
 
     }
     
     #newsletter{
         flex-direction: column;
-        width: 600px;
+        width: 620px;
     }
     #footer{
         height: 100%;
-        width: 600px;
+        width: 620px;
     }
     #footerSection{
+        width: 620px;
+    }
+    .footerDiv{
         width: 600px;
+        width: 620px;
     }
  } 
 
