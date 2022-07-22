@@ -121,18 +121,18 @@
         width: 500px;
     }
     #missionSection h2{
-        font-family: 5rem;
+        font-size: 5rem;
     }
    
     .cardContainer {
         width: 600px;
-        margin: 0px;
+        margin:  0px;
     }
     .card{
         width: 580px;
         height: 1000px;
         flex-direction: column;
-        margin: 10px 0px 0px 10px;
+        margin: 30px 0px 0px 30px;
     }
     .card h3{
         font-size: 3rem;
@@ -147,7 +147,7 @@
         height: 450px;
     }
     .card-img img{
-        width: 580px;
+        width: 560px;
         height: 540px;
     }
     .card-content{
@@ -164,9 +164,13 @@
         height: 980px;
         flex-direction: column;
         padding: 10px;
+        width: 600px;
     }
     .sponsers{
         margin: 8px 0;
+    }
+    .sponsers img{
+        width: 560px;
     }
     .whyus{
         width: 90%;
@@ -176,15 +180,23 @@
         height: 150px;
         width: 250px;
     }
-    #cerificate_container{
+    
+        
+        
+    #certificateSection{
         width: 600px;
+
     }
+    
     #newsletter{
         flex-direction: column;
         width: 600px;
     }
     #footer{
         height: 100%;
+        width: 600px;
+    }
+    #footerSection{
         width: 600px;
     }
  } 
