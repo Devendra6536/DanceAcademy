@@ -75,7 +75,7 @@
   @media screen and (max-width:1110px){
 
     .navbar{
-        text-align: center; 
+        /* text-align: center;  */
         width: 100%;
         position: relative;
         height: 600px;
@@ -108,11 +108,46 @@
         margin-top: 25px;
         padding: 25px;
     }
+    #introSection div{
+        font-size: 4rem;
+    }
+    #introSecti div.small{
+        font-size: 3rem;
+    }
+    
     #missionSection{
         height: 100%;
+        padding: 0px;
+        margin: 0px;
+        width: 500px;
+    }
+    .cardContainer {
+        width: 500px;
+        margin: 0px;
     }
     .card{
-        width: 100%;
+        width: 450px;
+        height: 1000px;
+        flex-direction: column;
+        margin: 10px 0px 0px 10px;
+    }
+    .card-box {
+        flex-direction: column;
+        width: 500px;
+        height: 900px;
+    }
+    .card-img{
+        width: 500px;
+        height: 450px;
+        width: ;
+    }
+    .card-img img{
+        width:400px;
+        height: 450px;
+    }
+    .card-content{
+        width: 450px;
+        height: 450px;
     }
     #sponserSection,#whyusSection{
         height: 1000px;
