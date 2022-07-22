@@ -78,15 +78,20 @@
         text-align: center; 
         width: 100%;
         position: relative;
-        height: 500px;
+        height: 1400px;
+        justify-content: start;
     }
     .navbar ul{
-         margin: auto;
+         /* margin: auto; */
          flex-direction: column;
 
     }
     .navbar ul li{
         width: 100%;
+    }
+    .navbar ul li a{
+
+        font-size: 3rem;
     }
     .navbar ul li:hover{
         background-color: black;
