@@ -76,7 +76,7 @@
 
     .navbar{
         /* text-align: center;  */
-        width: 620px;
+        width: 625px;
         position: relative;
         height: 600px;
         justify-content: start;
@@ -103,7 +103,7 @@
     }
     #introSection{
         height: 1000px;
-        width: 600px;
+        width: 625px;
         margin-top: 25px;
         padding: 25px;
     }
@@ -125,7 +125,7 @@
     }
    
     .cardContainer {
-        width: 620px;
+        width: 625px;
         margin:  0px;
     }
     .card{
@@ -164,7 +164,7 @@
         height: 100%;
         flex-direction: column;
         padding: 10px;
-        width: 620px;
+        width: 625px;
     }
     .sponsers{
         margin: 8px 0;
@@ -182,25 +182,25 @@
         
         
     #certificateSection{
-        width: 620px;
+        width: 625px;
 
     }
     
     #newsletter{
         flex-direction: column;
-        width: 620px;
+        width: 625px;
     }
     #footer{
         height: 100%;
         width: 620px;
     }
-    #footerSection{
-        width: 620px;
-    }
     .footerDiv{
-        width: 600px;
+        margin: 0px;
+    }
+    #footerSection,#bottom,.footerDiv{
         width: 620px;
     }
+    
  } 
 
 
