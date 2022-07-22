@@ -63,10 +63,16 @@ h2{
     border-radius: 15px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:600px) {
     .box{
-        width:631px;
+        display: block;
+        width:391px;
         height: 100%;
+        padding: 0px;
+    }
+    .boxContent{
+        width: 345px;
+        margin: 10px 20px;
     }
     .trainingContainer{
         flex-direction: column ;
