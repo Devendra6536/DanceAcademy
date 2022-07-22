@@ -121,7 +121,7 @@
         width: 361px;
         height: 600px;
         flex-direction: column;
-        margin: 15px 0px 15px 0px;
+        margin: 15px 0px 15px 10px;
     }
     .card-box {
         flex-direction: column;
