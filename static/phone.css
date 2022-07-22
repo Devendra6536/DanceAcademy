@@ -100,42 +100,42 @@
     #introSection div{
         font-size: 4rem;
     }
-    #introSecti div.small{
-        font-size: 3rem;
+    #introSection div.small{
+        font-size: 2rem;
     }
     
     #missionSection{
         height: 100%;
+        width: 391px;
         padding: 0px;
         margin: 0px;
-        width: 391px;
     }
    
     .cardContainer {
-        width: 391px;
+        width: 371px;
         margin:  0px;
     }
     .card{
-        width: 381px;
+        width: 361px;
         height: 600px;
         flex-direction: column;
         margin: 30px 0px 0px 30px;
     }
     .card-box {
         flex-direction: column;
-        width: 371px;
+        width: 351px;
         height: 600px;
     }
     .card-img{
-        width: 371px;
-        height: 340px;
+        width: 341px;
+        height: 330px;
     }
     .card-img img{
-        width: 365px;
+        width: 335px;
         height: 340px;
     }
     .card-content{
-        width: 391px;
+        width: 335px;
         height: 150px;
     }
     #sponserSection,#whyusSection{
