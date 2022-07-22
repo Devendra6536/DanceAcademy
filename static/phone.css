@@ -72,18 +72,19 @@
 
 
 
-  @media screen and (max-width:1170px){
+  @media screen and (max-width:1110px){
 
     .navbar{
         text-align: center; 
         width: 100%;
         position: relative;
-        height: 1400px;
+        height: 600px;
         justify-content: start;
     }
     .navbar ul{
          /* margin: auto; */
          flex-direction: column;
+         height: 50px;
 
     }
     .navbar ul li{
