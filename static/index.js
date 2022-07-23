@@ -8,3 +8,7 @@ function play(){
         responsive.className  = "navbar";
     }
 }
+function pause()
+{
+    document.getElementById("navigation").className = "navbar";
+}

@@ -7,9 +7,8 @@
     padding: 0;
 }
 
-.btn{
+.btn,.btnclose{
     display: none;
-
 }
 .navbar{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -170,7 +169,7 @@
     border-radius: 5px;  
 }
 .sponsers img:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 #whyusSection{
     height: 425px;
