@@ -1,1 +1,10 @@
-document.getElementById("logo ").style.display = none;
+function play(){
+    var responsive = document.getElementById("navigation");
+    if(responsive.className === "navbar")
+    {
+        responsive.className += " responsive";
+    }
+    else{
+        responsive.className  = "navbar";
+    }
+}
