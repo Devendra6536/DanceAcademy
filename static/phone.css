@@ -111,10 +111,10 @@
 .navbar.responsive .btnclose{
     display: block;
 }
-.navbar.responsive .btn{
+.navbar.responsive .btnbar{
     display: none;
 }
-    .btn{
+    .btnbar{
         display: block;
         position: relative;
         padding: 0px 5px;
