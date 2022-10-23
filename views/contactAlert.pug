@@ -9,5 +9,6 @@ block style
         include ../static/alerts.css   
 block content
     div.alert 
-        img(src="/static/img/right.webp", alt="this is right image") 
-        h1 Thank you! we will contact you within 24 hrs
+        img(src="/static/img/right.webp", id="success" alt="this is right image") 
+        img(src="https://gifimage.net/wp-content/uploads/2018/04/processing-gif-image-1.gif", id="process" alt="this is right image") 
+        h1#success_message Thank you! we will contact you within 24 hrs

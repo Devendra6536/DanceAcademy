@@ -12,3 +12,10 @@ function pause()
 {
     document.getElementById("navigation").className = "navbar";
 }
+
+setTimeout(sucessopen, 5000);
+function sucessopen(){
+    document.getElementById("success").style.display="block";
+    document.getElementById("success_message").style.display="block";
+    document.getElementById("process").style.display="none";
+}

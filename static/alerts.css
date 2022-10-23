@@ -13,11 +13,14 @@
 }
  h1{
     font-family: 'ZCOOL QingKe HuangYou';
-    font-size: 70px;
+    font-size: 50px;
 }
 img{
-    height: 200px ;
-    width: 200px;
+    height: 170px ;
+    width: 170px;
     margin: 20px 0px;
 }
 
+#success,#success_message{
+    display: none;
+}
